@@ -1,5 +1,5 @@
 {
-  "Post": {
+  "Flight": {
     "flightNumber": {
       "string": [
         "ZZ - 100",
@@ -190,5 +190,15 @@
         "23:50"
       ]
     }
+  },
+  "Passenger": {
+    "firstname": {"string": {}},
+    "lastname": {"string": {}},
+    "bookingNumber": {"belongsTo": "Booking"}
+  },
+  "Booking": {
+    "bookingNumber": {"string": {}},
+    "flight": {"belongsTo":  "Flight"},
+    "passengers": {"hasMany": "Passenger"}
   }
 }
