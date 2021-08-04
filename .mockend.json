@@ -1,6 +1,6 @@
 {
   "Post": {
-    "title": { "string": {} },
+    "flightNumber": { "string": ["ZZ - 100", "ZZ - 200", "ZZ - 300", "ZZ - 400"] },
     "comments": {
       "hasMany": "Comment"
     }
