@@ -198,6 +198,7 @@
   },
   "Booking": {
     "bookingNumber": {"string": {}},
+    "direction": {"string": {}}
     "flight": {"belongsTo":  "Flight"},
     "passengers": {"hasMany": "Passenger"}
   }
