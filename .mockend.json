@@ -2,9 +2,9 @@
   "Post": {
     "flightNumber": { "string": ["ZZ - 100", "ZZ - 200", "ZZ - 300", "ZZ - 400"] },
     "flightDateTime: {
-    "min": "2021-09-01T00:00:00Z",
-    "max": "2021-09-31T23:59:59Z"
-  }
+      "min": "2021-09-01T00:00:00Z",
+      "max": "2021-09-31T23:59:59Z"
+    },
     "comments": {
       "hasMany": "Comment"
     }
